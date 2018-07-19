@@ -134,7 +134,7 @@ For more information, see https://cloud.google.com/vision/docs
 
 ### v1p3beta1 Detection samples
 
-View the [source code][v1p3beta1_code].
+View the [source code][v1p3beta1.js_1_code].
 
 [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-vision&page=editor&open_in_editor=samples/detect.js,samples/README.md)
 
