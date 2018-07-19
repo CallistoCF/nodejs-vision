@@ -132,48 +132,13 @@ For more information, see https://cloud.google.com/vision/docs
 [shell_img]: https://gstatic.com/cloudssh/images/open-btn.png
 [shell_link]: https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-vision&page=editor&open_in_editor=samples/README.md
 
-### v1p3beta1 Detection samples
-
-View the [source code][v1p3beta1.js_1_code].
-
-[![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-vision&page=editor&open_in_editor=samples/detect.js,samples/README.md)
-
-__Usage:__ `node v1p3beta1.js --help`
-
-detect.v1p3beta1.js <command>
-
-Commands:
-  detect.v1p3beta1.js localizeObjects       Detects Objects in a local image file
-  detect.v1p3beta1.js localizeObjectsGCS    Detects Objects Google Cloud Storage Bucket
-  detect.v1p3beta1.js detectHandwriting     Detects handwriting in a local image file.
-  detect.v1p3beta1.js detectHandwritingGCS  Detects handwriting from Google Cloud Storage Bucket.
-
-Options:
-  --version                Show version number                                                                 [boolean]
-  --fileName, -f                                                    [string] [default: "./resources/duck_and_truck.jpg"]
-  --gcsUri, -u                                           [string] [default: "gs://nodejs-docs-samples//handwritten.jpg"]
-  --handwritingSample, -h                                              [string] [default: "./resources/handwritten.jpg"]
-  --handwritingGcsUri, -u                                [string] [default: "gs://nodejs-docs-samples//handwritten.jpg"]
-  --help                   Show help                                                                           [boolean]
-
-Examples:
-  node detect.v1p3beta1.js localizeObjects -f ./resources/duck_and_truck.jpg
-  node detect.v1p3beta1.js localizeObjectsGCS gcsuri
-  node detect.v1p3beta1.js detectHandwriting ./resources/handwritten.jpg
-  node detect.v1p3beta1.js detectHandwritingGCS gcsuri
-
-For more information, see https://cloud.google.com/vision/docs
-
-[detect_0_docs]: https://cloud.google.com/vision/docs
-[detect_0_code]: detect.js
-
 ### Detection samples for Beta API
 
 View the [source code][detect.v1p3beta1.js_1_code].
 
 [![Open in Cloud Shell][shell_img]](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/googleapis/nodejs-vision&page=editor&open_in_editor=samples/detect.v1p3beta1.js,samples/README.md)
 
-__Usage:__ `node detect.v1p1beta1.js --help`
+__Usage:__ `node detect.v1p3beta1.js --help`
 
 ```
 detect.v1p3beta1.js <command>
